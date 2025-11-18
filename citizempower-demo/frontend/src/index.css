@@ -1,0 +1,11 @@
+/* Basic reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Light padding to pages */
+div {
+  box-sizing: border-box;
+}
