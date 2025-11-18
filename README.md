@@ -27,8 +27,7 @@ CitizEMPOWER transforms civic governance by turning ANY citizen complaint into a
 - Installation
 - Environment Variables
 - API Documentation
-- Folder Structure
-- (Part 2) Roadmap, Government Integration, License, Credits
+
 
 ---
 
@@ -177,28 +176,28 @@ A next-gen civic heatmap system:
 ---
 
 # 🏗 Architecture
-
 ┌──────────────────────────────────────────────────┐
-│ FRONTEND (React) │
-│ • AI submit page │
-│ • Dashboard + HeatmapXII │
-│ • Follow-up assistant │
+│                  FRONTEND (React)                │
+│  • AI submit page                                │
+│  • Dashboard + HeatmapXII                        │
+│  • Follow-up assistant                           │
 └──────────────────────────────────────────────────┘
-│ REST API
-▼
+                          │
+                          │  REST API
+                          ▼
 ┌──────────────────────────────────────────────────┐
-│ BACKEND (Node.js) │
-│ • /api/triage → AI analysis │
-│ • /api/dashboard → analytics │
-│ • MongoDB (issue storage) │
+│                 BACKEND (Node.js)                │
+│  • /api/triage  →  AI analysis                   │
+│  • /api/dashboard  →  analytics                  │
+│  • MongoDB (issue storage)                       │
 └──────────────────────────────────────────────────┘
-│
-▼
+                          │
+                          ▼
 ┌──────────────────────────────────────────────────┐
-│ AI (Groq) │
-│ • Department classification │
-│ • Urgency detection │
-│ • Complaint drafting │
+│                     AI (Groq)                    │
+│  • Department classification                     │
+│  • Urgency detection                             │
+│  • Complaint drafting                            │
 └──────────────────────────────────────────────────┘
 
 ---
@@ -251,14 +250,20 @@ AI uses:
 
 ---
 
-# 🖼 Screenshots (Replace with images later)
+# 🖼 Screenshots 
 
 📌 Home Page + Flow Carousel
+<img width="1880" height="929" alt="image" src="https://github.com/user-attachments/assets/57a69b08-e45f-43bb-8523-b8aecc0438fd" />
 📌 Submit Issue (AI processing + confidence meter)
-📌 Triage Output
+<img width="1871" height="935" alt="image" src="https://github.com/user-attachments/assets/25985149-4348-4ff5-ad45-9c64a78938a8" />
+<img width="1353" height="938" alt="image" src="https://github.com/user-attachments/assets/fdd8b947-e310-461d-b4bd-f1f2abd3a2fe" />
+<img width="1313" height="903" alt="image" src="https://github.com/user-attachments/assets/afd1b825-94ab-4850-8b59-ee83f6c258a3" />
+
 📌 Dashboard Analytics
-📌 HeatmapXII engine
-📌 Predictive hotspot view
+<img width="1885" height="946" alt="image" src="https://github.com/user-attachments/assets/8cad856c-eb4e-4335-8cbf-65cb9020e791" />
+<img width="1858" height="929" alt="image" src="https://github.com/user-attachments/assets/cc8b32f8-9f8d-4cb7-a6bc-07c5bd3c3375" />
+<img width="666" height="804" alt="image" src="https://github.com/user-attachments/assets/20df0c3d-7c64-4673-912c-4e35c1145ffa" />
+
 
 
 ---
